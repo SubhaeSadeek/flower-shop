@@ -1,7 +1,16 @@
+* {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
 .banner-container {
   height: 850px;
   background: #e55473;
   display: flex;
   justify-content: space-around;
   gap: 50px;
+}
+.banner-content-image {
+  background-image: url("../asset/pngwing-10.png") bottom right;
+  padding: 0px, 30px;
 }
