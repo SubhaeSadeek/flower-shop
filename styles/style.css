@@ -7,10 +7,25 @@
   height: 850px;
   background: #e55473;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 50px;
 }
+.banner-content {
+  max-width: 500px;
+}
+.content-text {
+  margin: 300px 100px;
+}
 .banner-content-image {
-  background-image: url("../asset/pngwing-10.png") bottom right;
-  padding: 0px, 30px;
+  /* background-image: url("../asset/pngwing-10.png");
+  background-repeat: no-repeat;
+  background-position: bottom right; */
+  width: 500px;
+  padding-bottom: 0px;
+  padding-top: 100px;
+}
+.img-banner {
+  width: 500px;
+  height: 650px;
+  margin-bottom: 0px;
 }
