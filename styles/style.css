@@ -1,3 +1,4 @@
+/* body wise  */
 * {
   font-family: "Lato", sans-serif;
   font-family: "Open Sans", sans-serif;
@@ -13,31 +14,79 @@
   font-weight: 700;
   padding: 10px 30px;
 }
-
+/* banner style */
 .banner-container {
   height: 850px;
-  background: #ff708f;
+  background: #ffb7c7;
   display: flex;
-  justify-content: space-between;
-  gap: 50px;
+  justify-content: center;
+  padding-bottom: 0px;
+  gap: 250px;
 }
 .banner-content {
   max-width: 500px;
 }
+.text-title {
+  font-size: 45px;
+  font-weight: 800;
+  padding-bottom: 0px;
+}
 .content-text {
-  margin: 300px 100px;
+  margin: 200px 100px;
 }
 .banner-content-image {
-  /* background-image: url("../asset/pngwing-10.png");
-  background-repeat: no-repeat;
-  background-position: bottom right; */
   width: 500px;
-  padding-bottom: 0px;
   padding-top: 150px;
+  padding-bottom: 0px;
   margin-right: 100px;
+  margin-bottom: 0px;
 }
 .img-banner {
   width: 500px;
   height: 650px;
   margin-bottom: 0px;
+}
+
+/* main section stytle */
+.featured-flowers {
+  text-align: center;
+  width: 600px;
+  height: 150px;
+  margin: 50px auto;
+}
+#featued-text {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+/* Gallery image for flower */
+#gallery {
+  display: flex;
+  gap: 10px;
+  width: 1440px;
+  height: 605px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.gallery-showcase {
+  padding: 0px;
+  margin: 0px;
+}
+#gallery-flower1 {
+  background-color: #df4f6e;
+  border-radius: 200px 200px 0px 0px;
+  width: 400px;
+  height: 450px;
+}
+#gallery-flower2 {
+  background-color: #bde7e9;
+  border-radius: 200px 200px 0px 0px;
+  width: 400px;
+  height: 450px;
+}
+#gallery-flower3 {
+  background-color: #e0f3ce;
+  border-radius: 200px 200px 0px 0px;
+  width: 400px;
+  height: 450px;
 }
