@@ -167,7 +167,7 @@
 }
 .bonus-point-section {
   text-align: center;
-  width: 1540px;
+  width: 1640px;
   height: 250px;
   margin: 0px 650px;
   background-color: aquamarine;
@@ -183,4 +183,35 @@
 }
 .accredation-logo {
   display: inline;
+}
+
+/* Footer section styles */
+
+#footer-container {
+  height: 450px;
+  background: #111010;
+  display: flex;
+  justify-content: center;
+  gap: 250px;
+  text-align: center;
+  margin-top: 100px;
+}
+.footer-title {
+  font-size: 45px;
+  font-weight: 800;
+  padding-bottom: 0px;
+  color: #ffffff;
+}
+.footer-text {
+  margin-top: 100px;
+}
+.footer-textcolor {
+  color: #e55473;
+}
+.footer-para {
+  color: #ffffff;
+  width: 600px;
+}
+#footer-copy {
+  color: #665f5f;
 }
